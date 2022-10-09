@@ -1,0 +1,61 @@
+.header ul li{
+	list-style: none;
+	display: inline-block;	
+	padding: 10px;
+	background: skyblue; 
+	border-radius: 20px;
+}
+.header{
+	width: 100%;
+	float: left;
+    border-radius: 20px;
+	background: grey;
+}
+ul{
+	text-align: right;	
+	margin-right: 10px;
+    padding: 25px;
+    font-size: medium;
+    font-family: 'Lucida Sanslz', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.header ul li:hover{
+    cursor:grab;
+    font-size:large;
+	background: whitesmoke;
+	color: white;
+}
+.logo img{
+	float: left;
+	height: 48px;
+	padding: 35px;
+}
+.bgimage{
+
+	color: white;
+	text-align: center;
+	height: 400px;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-image: url("IMAGE_URL"), linear-gradient(skyblue, grey);
+	width: 100%;
+	float:right;
+}
+.cont{
+	margin-top: 200px;
+}
+.bgimage .cont .btnn{
+
+	padding: 10px;
+	font-weight: 800;
+	color: black;
+	background: white;
+	border-color:skyblue;
+	border-radius: 10px;
+}
+
+.bgimage .cont .btnn:hover{
+
+	background: grey;
+	color: white;
+	border-color: grey;
+}
